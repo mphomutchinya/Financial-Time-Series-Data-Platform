@@ -1,0 +1,24 @@
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Airflow logs
+logs/
+airflow/logs/
+
+
+# Environment files
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker leftovers
+*.pid
+ 
+ !notebooks/feature_exploration.ipynb
+
+ 
